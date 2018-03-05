@@ -8,7 +8,6 @@ const TopNav = () => (
     <Menu.Item name="home" as={Link} exact to="/" color="red">
       WarZone
     </Menu.Item>
-
     <Menu.Item name="trending" as={Link} to="/trending" color="red">
       Trending
     </Menu.Item>

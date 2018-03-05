@@ -1,5 +1,6 @@
 import React from "react";
+import WarFormGroup from "../forms/WarFormGroup";
 
-const HomePage = () => <div>Warzone</div>;
+const HomePage = () => <WarFormGroup />;
 
 export default HomePage;
