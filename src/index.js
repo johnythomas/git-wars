@@ -9,7 +9,7 @@ ReactDOM.render(
   <Router>
     <Route component={App} />
   </Router>,
-  document.getElementById("root")
+  document.getElementById("root") || document.createElement("div")
 );
 
 registerServiceWorker();
