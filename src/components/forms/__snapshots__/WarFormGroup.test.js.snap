@@ -19,10 +19,14 @@ ShallowWrapper {
     "props": Object {
       "children": <GridRow>
         <GridColumn>
-                <WarForm />
+                <WarForm
+                        onSubmit={[Function]}
+                />
         </GridColumn>
         <GridColumn>
-                <WarForm />
+                <WarForm
+                        onSubmit={[Function]}
+                />
         </GridColumn>
 </GridRow>,
       "columns": 2,
@@ -36,10 +40,14 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <GridColumn>
-            <WarForm />
+            <WarForm
+                        onSubmit={[Function]}
+            />
 </GridColumn>,
           <GridColumn>
-            <WarForm />
+            <WarForm
+                        onSubmit={[Function]}
+            />
 </GridColumn>,
         ],
       },
@@ -50,14 +58,18 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "function",
           "props": Object {
-            "children": <WarForm />,
+            "children": <WarForm
+              onSubmit={[Function]}
+/>,
           },
           "ref": null,
           "rendered": Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "function",
-            "props": Object {},
+            "nodeType": "class",
+            "props": Object {
+              "onSubmit": [Function],
+            },
             "ref": null,
             "rendered": null,
             "type": [Function],
@@ -69,14 +81,18 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "function",
           "props": Object {
-            "children": <WarForm />,
+            "children": <WarForm
+              onSubmit={[Function]}
+/>,
           },
           "ref": null,
           "rendered": Object {
             "instance": null,
             "key": undefined,
-            "nodeType": "function",
-            "props": Object {},
+            "nodeType": "class",
+            "props": Object {
+              "onSubmit": [Function],
+            },
             "ref": null,
             "rendered": null,
             "type": [Function],
@@ -96,10 +112,14 @@ ShallowWrapper {
       "props": Object {
         "children": <GridRow>
           <GridColumn>
-                    <WarForm />
+                    <WarForm
+                              onSubmit={[Function]}
+                    />
           </GridColumn>
           <GridColumn>
-                    <WarForm />
+                    <WarForm
+                              onSubmit={[Function]}
+                    />
           </GridColumn>
 </GridRow>,
         "columns": 2,
@@ -113,10 +133,14 @@ ShallowWrapper {
         "props": Object {
           "children": Array [
             <GridColumn>
-              <WarForm />
+              <WarForm
+                            onSubmit={[Function]}
+              />
 </GridColumn>,
             <GridColumn>
-              <WarForm />
+              <WarForm
+                            onSubmit={[Function]}
+              />
 </GridColumn>,
           ],
         },
@@ -127,14 +151,18 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "function",
             "props": Object {
-              "children": <WarForm />,
+              "children": <WarForm
+                onSubmit={[Function]}
+/>,
             },
             "ref": null,
             "rendered": Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "function",
-              "props": Object {},
+              "nodeType": "class",
+              "props": Object {
+                "onSubmit": [Function],
+              },
               "ref": null,
               "rendered": null,
               "type": [Function],
@@ -146,14 +174,18 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "function",
             "props": Object {
-              "children": <WarForm />,
+              "children": <WarForm
+                onSubmit={[Function]}
+/>,
             },
             "ref": null,
             "rendered": Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "function",
-              "props": Object {},
+              "nodeType": "class",
+              "props": Object {
+                "onSubmit": [Function],
+              },
               "ref": null,
               "rendered": null,
               "type": [Function],
