@@ -7,5 +7,7 @@ export const getTrendingRepos = () =>
     )
     .then(response => response.data.items);
 
-export const getUser = (id) => 
-    axios.get(`https://api.github.com/users/${id}`)
+export const getUser = id =>
+  axios
+    .get(`https://api.github.com/users/${id}`)
+    .then(response => response.data);
