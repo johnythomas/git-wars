@@ -9,7 +9,7 @@ class TrendingPage extends Component {
   };
 
   componentDidMount() {
-    getTrendingRepos().then(repos => this.setState(() => ({ repos })));
+    return getTrendingRepos().then(repos => this.setState(() => ({ repos })));
   }
 
   render() {

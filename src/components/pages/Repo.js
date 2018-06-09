@@ -26,6 +26,7 @@ const Repo = ({ repo }) => (
 
 Repo.propTypes = {
   repo: PropTypes.shape({
+    name: PropTypes.string.isRequired,
     owner: PropTypes.shape({
       avatar_url: PropTypes.string
     }).isRequired,
