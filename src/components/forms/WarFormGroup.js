@@ -10,13 +10,12 @@ class WarFormGroup extends Component {
     user2: null
   };
 
-  onSubmit = user => username => {
+  onSubmit = user => username =>
     getUser(username).then(usr =>
       this.setState(() => ({
         [user]: usr
       }))
     );
-  };
 
   render() {
     return (
